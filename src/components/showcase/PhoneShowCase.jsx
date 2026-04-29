@@ -98,7 +98,7 @@ export default function PhoneShowCase({ productData, carouselItems }) {
   }, []);
 
   return (
-    <main className="phone-showcase-root w-full relative grid place-items-center px-3 py-4">
+    <main className="phone-showcase-root w-full relative grid place-items-center px-3 py-8">
       <div className="w-[376px] rounded-[50px] bg-[var(--phone)] border-[15px] border-[var(--frame)] shadow-[0_16px_42px_rgba(47,57,53,0.12)] overflow-visible">
         <section className="p-3 rounded-[50px] min-h-[734px]" style={{ background: 'linear-gradient(180deg, #fbfbfb 0%, #f6f7f5 54%, #f3f4f2 100%)' }}>
           <div className="flex justify-center mt-[2px]">
