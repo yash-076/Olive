@@ -1,6 +1,6 @@
-import BackgroundLayer from './components/layout/BackgroundLayer'
-import HeroSection from './components/hero/HeroSection'
-import Navbar from './components/layout/Navbar'
+import BackgroundLayer from './components/layout/BackgroundLayer.jsx'
+import HeroSection from './components/hero/HeroSection.jsx'
+import Navbar from './components/layout/Navbar.jsx'
 
 function App() {
   return (

@@ -1,6 +1,6 @@
-import HeroActions from './HeroActions'
-import SocialProof from './SocialProof'
-import PhoneShowcase from '../showcase/PhoneShowcase'
+import HeroActions from './HeroActions.jsx'
+import SocialProof from './SocialProof.jsx'
+import PhoneShowcase from '../showcase/PhoneShowcase.jsx'
 
 function HeroSection() {
   return (
