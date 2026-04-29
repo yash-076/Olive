@@ -1,16 +1,75 @@
-# React + Vite
+# Olive
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Olive is a small React + Vite starter focused on a polished product/showcase landing UI. It uses React, Vite, Tailwind CSS and Framer Motion to demonstrate a responsive hero and phone product showcase component.
 
-Currently, two official plugins are available:
+**Key goals:** clean component structure, fast dev feedback via Vite, and Tailwind-driven styling.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+**Live demo:** (local) run the dev server and open the URL printed by Vite.
 
-## React Compiler
+## Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- Minimal React 19 + Vite setup with HMR
+- Tailwind CSS for utility-first styling
+- Framer Motion for subtle UI animation
+- ESLint configured for consistent code style
+- Reusable components: hero, navbar, phone showcase, carousel
 
-## Expanding the ESLint configuration
+## Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React 19
+- Vite
+- Tailwind CSS + PostCSS
+- Framer Motion
+- ESLint
+
+## Prerequisites
+
+- Node.js (16+ recommended)
+- npm (or use your preferred package manager)
+
+## Getting Started
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Run the development server:
+
+```bash
+npm run dev
+```
+
+Build for production:
+
+```bash
+npm run build
+```
+
+Preview the production build locally:
+
+```bash
+npm run preview
+```
+
+Lint the project:
+
+```bash
+npm run lint
+```
+
+## Project Structure
+
+At a glance:
+
+- `index.html` — app entry
+- `src/main.jsx` — app bootstrap
+- `src/App.jsx` — top-level app component
+- `src/index.css` — Tailwind entry
+- `src/components/` — UI components
+	- `layout/` — `Navbar.jsx`, `BackgroundLayer.jsx`
+	- `hero/` — `HeroSection.jsx`, `HeroActions.jsx`, `SocialProof.jsx`
+	- `showcase/` — `PhoneShowCase.jsx`, `Carousel.jsx`, `ProductDetails.jsx`, `PhoneShowCase.css`
+
+You can explore the components in `src/components` to learn how the layout and animations are composed.
